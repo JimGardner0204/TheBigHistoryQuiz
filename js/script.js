@@ -16,11 +16,20 @@ let quizContent = [
         correct: "1",
     }
     {
-        question: "In 1918 Finland declared its independence from which country?"
+        question: "In 1918 Finland declared its independence from which country?",
         1: "Norway",
         2: "Denmark",
         3: "Sweden",
         4: "Russia",
         correct: "Russia",
     }
-]
+];
+
+let mainQuiz = document.getElementById('mainquiz')
+let answer = document.querySelectorAll('.answer')
+let question1 = document.getElementById('topquestion')
+let text1 = document.getElementById('1-text')
+let text2 = document.getElementById('2-text')
+let text3 = document.getElementById('3-text')
+let text4 = document.getElementById('4-text')
+let submitbutton = document.getElementById('submit')
