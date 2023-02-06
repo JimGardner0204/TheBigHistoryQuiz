@@ -33,3 +33,20 @@ let text2 = document.getElementById('2-text')
 let text3 = document.getElementById('3-text')
 let text4 = document.getElementById('4-text')
 let submitbutton = document.getElementById('submit')
+
+let currentQuiz = 0;
+let score = 0;
+
+function loadQuiz () {
+    deselectAnswers()
+
+    let currentQuizData = quizData[currentQuiz]
+    question1.innerText = currentQuizData.question
+
+    text1.innerText = currentQuizData.1
+    text2.innerText = currentQuizData.2
+    text3.innerText = currentQuizData.3
+    text4.innerText = currentQuizData.4
+};
+
+function deselectAnswers 
