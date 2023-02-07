@@ -1,5 +1,5 @@
 let quizContent = [{
-        question: "Who was the sixth and final wife of Henry VIII?",
+        question: "1. Who was the sixth and final wife of Henry VIII?",
         a: "Anne Boleyn",
         b: "Catherine of Aragon",
         c: "Jane Seymour",
@@ -7,7 +7,7 @@ let quizContent = [{
         correct: "d",
     },
     {
-        question: "What did the Romans call Scotland?",
+        question: "2. What did the Romans call Scotland?",
         a: "Caledonia",
         b: "Celtic",
         c: "Hebrides",
@@ -15,7 +15,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "In 1918 Finland declared its independence from which country?",
+        question: "3. In 1918 Finland declared its independence from which country?",
         a: "Norway",
         b: "Denmark",
         c: "Sweden",
@@ -23,7 +23,7 @@ let quizContent = [{
         correct: "d",
     },
     {
-        question: "The German Attack on which country caused Britain to enter WW2?",
+        question: "4. The German Attack on which country caused Britain to enter WW2?",
         a: "Poland",
         b: "Russia",
         c: "Czech Republic",
@@ -31,7 +31,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "In which year was Margaret Thatcher first elected Prime Minister in Britain?",
+        question: "5. In which year was Margaret Thatcher first elected Prime Minister in Britain?",
         a: "1972",
         b: "1984",
         c: "1979",
@@ -39,7 +39,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "Adolf Hitler was born in which country?",
+        question: "6. Adolf Hitler was born in which country?",
         a: "Germany",
         b: "France",
         c: "Austria",
@@ -47,7 +47,7 @@ let quizContent = [{
         correct: "d",
     },
     {
-        question: "What city was John F Kennedy assasinated in?",
+        question: "7. What city was John F Kennedy assasinated in?",
         a: "New York",
         b: "Austin",
         c: "Dallas",
@@ -55,7 +55,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "The Magna Carta was published by the King of which country? ",
+        question: "8. The Magna Carta was published by the King of which country? ",
         a: "France",
         b: "England",
         c: "Spain",
@@ -63,7 +63,7 @@ let quizContent = [{
         correct: "b",
     },
     {
-        question: "The disease that ravaged and killed a third of Europe's population in the 14th century is known as:",
+        question: "9. The disease that ravaged and killed a third of Europe's population in the 14th century is known as:",
         a: "The White Death",
         b: "Plague (Black Death)",
         c: "Small Pox",
@@ -71,7 +71,7 @@ let quizContent = [{
         correct: "b",
     },
     {
-        question: "The Hundred Years War was fought between what two countries?",
+        question: "10. The Hundred Years War was fought between what two countries?",
         a: "Italy and Carthage",
         b: "England and Germany",
         c: "France and England",
@@ -79,7 +79,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+        question: "11. Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
         a: "Marcus Aurelius",
         b: "Hadrian",
         c: "Nero",
@@ -87,7 +87,7 @@ let quizContent = [{
         correct: "b",
     },
     {
-        question: "In 1594, William Shakespeare joined the company of which London theatre?",
+        question: "12. In 1594, William Shakespeare joined the company of which London theatre?",
         a: "Broadway",
         b: "Oxford University Theatre",
         c: "The Globe",
@@ -95,7 +95,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "Which nation did The Khmer Rouge regime rule over in the 20th century?",
+        question: "13. Which nation did The Khmer Rouge regime rule over in the 20th century?",
         a: "Vietnam",
         b: "Laos",
         c: "Cambodia",
@@ -103,7 +103,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "What famous 5th century A.D conqueror was known as 'The Scourge of God?'",
+        question: "14. What famous 5th century A.D conqueror was known as 'The Scourge of God?'",
         a: "Hannibal",
         b: "Julius Caeser",
         c: "William The Conqueror",
@@ -111,7 +111,7 @@ let quizContent = [{
         correct: "d",
     },
     {
-        question: "In which year did India get independence from Britain?",
+        question: "15. In which year did India get independence from Britain?",
         a: "1944",
         b: "1945",
         c: "1946",
@@ -119,7 +119,7 @@ let quizContent = [{
         correct: "d",
     },
     {
-        question: "The ancient Egyptians used to sleep on pillows made of what?",
+        question: "16. The ancient Egyptians used to sleep on pillows made of what?",
         a: "Stones",
         b: "Gold",
         c: "Cotton",
@@ -127,7 +127,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "Which famous US landmark did Martin Luther King Junior give his famous 'I have a dream' speech in front of?",
+        question: "17. Which famous US landmark did Martin Luther King Junior give his famous 'I have a dream' speech in front of?",
         a: "Lincoln Memorial",
         b: "The White House",
         c: "Mount Rushmore",
@@ -135,7 +135,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "In which century did 10 Downing Street become the Prime Minister's residence?",
+        question: "18. In which century did 10 Downing Street become the Prime Minister's residence?",
         a: "16th",
         b: "17th",
         c: "18th",
@@ -143,7 +143,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "Which life-changing technology was launched in 1903?",
+        question: "19. Which life-changing technology was launched in 1903?",
         a: "Cars",
         b: "Bikes",
         c: "Aeroplanes",
@@ -151,7 +151,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "Which Treaty ended World War I?",
+        question: "20. Which Treaty ended World War I?",
         a: "The Treaty of Versailles",
         b: "The Treaty of Paris",
         c: "The Treaty of Strasbourg",
@@ -159,7 +159,7 @@ let quizContent = [{
         correct: "a",
     },
     {
-        question: "What were the surfaces of Egypt's ancient pyramids covered with?",
+        question: "21. What were the surfaces of Egypt's ancient pyramids covered with?",
         a: "Gold",
         b: "Silver",
         c: "White Limestone",
@@ -167,7 +167,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "What was the street called where the Great Fire of London started?",
+        question: "22. What was the street called where the Great Fire of London started?",
         a: "Baker Street",
         b: "Pudding Lane",
         c: "Regents Street",
@@ -175,7 +175,7 @@ let quizContent = [{
         correct: "b",
     },
     {
-        question: "What came after the Bronze Age?",
+        question: "23. What came after the Bronze Age?",
         a: "Stone Age",
         b: "Iron Age",
         c: "Silver Age",
@@ -183,7 +183,7 @@ let quizContent = [{
         correct: "b",
     },
     {
-        question: "New York was known by a different name before 1664. What was that name?",
+        question: "24. New York was known by a different name before 1664. What was that name?",
         a: "Old York",
         b: "Great York",
         c: "New Amsterdam",
@@ -191,7 +191,7 @@ let quizContent = [{
         correct: "c",
     },
     {
-        question: "According to popular myth, who chased all the snakes out of Ireland?",
+        question: "25. According to popular myth, who chased all the snakes out of Ireland?",
         a: "Saint Patrick",
         b: "Saint Owen",
         c: "Saint Brian",

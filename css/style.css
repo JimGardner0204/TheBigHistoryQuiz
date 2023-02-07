@@ -3,3 +3,72 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+header {
+    background-color: #3c6e71;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#quiztitle {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+i.fa-sharp.fa-solid.fa-clock-rotate-left {
+    margin-left: 0.4em;
+}
+
+#quizsubtitle {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #d9d9d9;
+    padding: 0.5em;
+}
+
+#quizready {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #353535;
+    padding: 0.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+#mainquiz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  ul li label{
+    cursor: pointer;
+  }
+  button{
+    background-color: #3c6e71;
+    color: #fff;
+    border: none;
+    display: block;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+  }
+  button:hover{
+    background-color: #353535;
+  }
+  
