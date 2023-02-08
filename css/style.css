@@ -15,6 +15,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 1.5em;
 }
 
 i.fa-sharp.fa-solid.fa-clock-rotate-left {
@@ -27,7 +28,8 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     flex-direction: row;
     justify-content: center;
     background-color: #d9d9d9;
-    padding: 0.5em;
+    padding: 0.25em;
+    font-size: 0.8em;
 }
 
 #quizready {
@@ -36,7 +38,24 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     flex-direction: row;
     justify-content: center;
     background-color: #353535;
-    padding: 0.5em;
+    padding: 0.25em;
+    font-size: 0.8em;
+}
+
+.progressArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#progress {
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+#currentScore {
+    padding: 1em;
+    font-size: 1.3em;
 }
 
 li {
@@ -57,7 +76,25 @@ ul li{
   }
   ul li label{
     cursor: pointer;
+    padding: 0.7em;
   }
+  
+  input#a.answer {
+    transform: scale(1.5);
+  }
+
+  input#b.answer {
+    transform: scale(1.5);
+  }
+
+  input#c.answer {
+    transform: scale(1.5);
+  }
+
+  input#d.answer {
+    transform: scale(1.5);
+  }
+
   button{
     background-color: #3c6e71;
     color: #fff;
@@ -71,4 +108,46 @@ ul li{
   button:hover{
     background-color: #353535;
   }
+
+/*Question font increased while header and subheader decreased for mobile users*/
+
+@media screen and (max-width: 500px) {
+    
+    #mainquiz {
+        padding: 0.5em;
+    }
+    
+    #topquestion {
+        font-size: 1.8em;
+    }
+    
+    #quiztitle {
+        font-size: 1.2em;
+    }
+
+    #quizsubtitle {
+        font-size: 0.6em;
+        text-align: center;
+    }
+
+    #quizready {
+        font-size: 0.6em;
+    }
+
+    label#a_text {
+        font-size: 1.2em;
+    }
+    
+    label#b_text {
+        font-size: 1.2em;
+    }
+
+    label#c_text {
+        font-size: 1.2em;
+    }
+
+    label#d_text {
+        font-size: 1.2em;
+    }
+}
   

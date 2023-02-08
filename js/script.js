@@ -6,10 +6,10 @@
 const mainQuiz = document.getElementById('mainquiz');
 const answerA1 = document.querySelectorAll('.answer');
 const questionmain = document.getElementById('topquestion');
-const texta = document.getElementById('a_text');
-const textb = document.getElementById('b_text');
-const textc = document.getElementById('c_text');
-const textd = document.getElementById('d_text');
+const a_text = document.getElementById('a_text');
+const b_text = document.getElementById('b_text');
+const c_text = document.getElementById('c_text');
+const d_text = document.getElementById('d_text');
 const submitbutton = document.getElementById('submit');
 const progressText = document.getElementById('progress');
 const currentScoreText = document.getElementById('currentScore');
@@ -17,33 +17,38 @@ const currentScoreText = document.getElementById('currentScore');
 let currentQuiz = 0;
 let score = 0;
 
-function getQuestions (numQuestions) {
+//*function adopted from https://www.geeksforgeeks.org/how-to-create-an-array-containing-non-repeating-elements-in-javascript/
+// to get random things from an array - function adapted for my quiz.
+function getQuestions(numQuestions) {
     let randomIndices = [];
     let questions = [];
 
-do {
-	// Generating random number
-	const randomNumber = (Math.floor(Math.random() * QUESTIONS.length))
+    do {
+        // Generating random number
+        const randomNumber = (Math.floor(Math.random() * QUESTIONS.length))
 
-	// Pushing into the array only
-	// if the array does not contain it
-	if (!randomIndices.includes(randomNumber)) {
-		randomIndices.push(randomNumber);
-	}
+        // Pushing into the array only
+        // if the array does not contain it
+        if (!randomIndices.includes(randomNumber)) {
+            randomIndices.push(randomNumber);
+        }
 
-} while (randomIndices.length < numQuestions);
+    } while (randomIndices.length < numQuestions);
+    //now return questions
 
-for(const num of randomIndices) {
-    questions.push(QUESTIONS[num]);
+    for (const num of randomIndices) {
+        questions.push(QUESTIONS[num]);
+    }
+
+    return questions;
+
 }
 
-return questions;
-
-}
-
+// randomly get 7 questions for the quiz so the user gets different questions each time they take the quiz
 const QUIZ_CONTENT = getQuestions(7);
 
-loadQuiz()
+
+loadQuiz();
 
 function loadQuiz() {
 
@@ -59,11 +64,11 @@ function loadQuiz() {
 
     progressText.innerText = `Question ${currentQuiz+1}/${QUIZ_CONTENT.length}`;
     currentScoreText.innerText = `Current Score: ${score}/${QUIZ_CONTENT.length}`;
-}
+};
 
 function deselectAnswers() {
     answerA1.forEach(answerA1 => answerA1.checked = false)
-}
+};
 
 function getSelected() {
     let answer
@@ -73,7 +78,7 @@ function getSelected() {
         }
     })
     return answer
-}
+};
 
 submitbutton.addEventListener('click', () => {
     let answer = getSelected()
@@ -93,7 +98,4 @@ submitbutton.addEventListener('click', () => {
             <button onClick = "location.reload()">Reload</button>`
         }
     }
-})
-
-
-
+});

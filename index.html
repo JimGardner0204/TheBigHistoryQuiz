@@ -16,29 +16,34 @@
         <h1 id="quiztitle"> The Big History Quiz<i class="fa-sharp fa-solid fa-clock-rotate-left"></i> </h1>
     </header>
 
-    <div id="quizsubtitle"> 
-        <h2> Test your history knowledge with 7 fun inquisitive questions  </h2>
-        
+    <div id="quizsubtitle">
+        <h2> Test your history knowledge with 7 fun inquisitive questions </h2>
+
     </div>
 
-    <div id="quizready"> 
-        <h2> Ready, Set, Lets Quiz!  </h2>
-        
+    <div id="quizready">
+        <h2> Ready, Set, Lets Quiz! </h2>
+
     </div>
 
-    
+
 
     <!-- Quiz container -->
 
     <div class="outer-quiz" id="mainquiz">
-<!-- The DOM structure for this quiz was adopted from Coding with Nicks quiz tutorial :
+        <!-- The DOM structure for this quiz was adopted from Coding with Nicks quiz tutorial :
 https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
 
 
         <div class="header-quiz">
-            
+
+            <div class="progressArea">
+                <div id="progress"> Question X of N</div>
+                <div id="currentScore"> Current Score Z of X </div>
+            </div>
+
             <h2 id="topquestion">Question Text</h2>
-          
+
             <!--Answer section-->
             <ul>
                 <li>
@@ -64,19 +69,15 @@ https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
 
     </div>
 
-    <div class="progressArea">
-        <div id="progress"> Question X of N</div>
-        <div id="currentScore"> Current Score Z of X </div>
-    </div>
 
-    
+
 
 
     <script src="https://kit.fontawesome.com/0bd68bc9dc.js" crossorigin="anonymous"></script>
 
     <script src="js/questions.js"></script>
 
-    <script src= "js/script.js"></script>
+    <script src="js/script.js"></script>
 
 
 </body>
