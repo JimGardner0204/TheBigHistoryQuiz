@@ -15,6 +15,32 @@ const submitbutton = document.getElementById('submit')
 let currentQuiz = 0;
 let score = 0;
 
+function getQuestions (numQuestions) {
+    let randomIndices = [];
+    let questions = [];
+
+do {
+	// Generating random number
+	const randomNumber = (Math.floor(Math.random() * QUESTIONS.length))
+
+	// Pushing into the array only
+	// if the array does not contain it
+	if (!randomIndices.includes(randomNumber)) {
+		randomIndices.push(randomNumber);
+	}
+
+} while (randomIndices.length < numQuestions);
+
+for(const num of randomIndices) {
+    questions.push(QUESTIONS[num]);
+}
+
+return questions;
+
+}
+
+const QUIZ_CONTENT = getQuestions(7);
+
 loadQuiz()
 
 function loadQuiz() {

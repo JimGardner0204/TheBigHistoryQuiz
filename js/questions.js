@@ -3,8 +3,8 @@
  * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
  */
 
-const QUIZ_CONTENT = [{
-    question: "1. Who was the sixth and final wife of Henry VIII?",
+const QUESTIONS = [{
+    question: "Who was the sixth and final wife of Henry VIII?",
     a: "Anne Boleyn",
     b: "Catherine of Aragon",
     c: "Jane Seymour",
@@ -12,7 +12,7 @@ const QUIZ_CONTENT = [{
     correct: "d",
 },
 {
-    question: "2. What did the Romans call Scotland?",
+    question: "What did the Romans call Scotland?",
     a: "Caledonia",
     b: "Celtic",
     c: "Hebrides",
@@ -20,7 +20,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "3. In 1918 Finland declared its independence from which country?",
+    question: "In 1918 Finland declared its independence from which country?",
     a: "Norway",
     b: "Denmark",
     c: "Sweden",
@@ -28,7 +28,7 @@ const QUIZ_CONTENT = [{
     correct: "d",
 },
 {
-    question: "4. The German Attack on which country caused Britain to enter WW2?",
+    question: "The German Attack on which country caused Britain to enter WW2?",
     a: "Poland",
     b: "Russia",
     c: "Czech Republic",
@@ -36,7 +36,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "5. In which year was Margaret Thatcher first elected Prime Minister in Britain?",
+    question: "In which year was Margaret Thatcher first elected Prime Minister in Britain?",
     a: "1972",
     b: "1984",
     c: "1979",
@@ -44,7 +44,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "6. Adolf Hitler was born in which country?",
+    question: "Adolf Hitler was born in which country?",
     a: "Germany",
     b: "France",
     c: "Austria",
@@ -52,7 +52,7 @@ const QUIZ_CONTENT = [{
     correct: "d",
 },
 {
-    question: "7. What city was John F Kennedy assasinated in?",
+    question: "What city was John F Kennedy assasinated in?",
     a: "New York",
     b: "Austin",
     c: "Dallas",
@@ -60,7 +60,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "8. The Magna Carta was published by the King of which country? ",
+    question: "The Magna Carta was published by the King of which country? ",
     a: "France",
     b: "England",
     c: "Spain",
@@ -68,7 +68,7 @@ const QUIZ_CONTENT = [{
     correct: "b",
 },
 {
-    question: "9. The disease that ravaged and killed a third of Europe's population in the 14th century is known as:",
+    question: "The disease that ravaged and killed a third of Europe's population in the 14th century is known as:",
     a: "The White Death",
     b: "Plague (Black Death)",
     c: "Small Pox",
@@ -76,7 +76,7 @@ const QUIZ_CONTENT = [{
     correct: "b",
 },
 {
-    question: "10. The Hundred Years War was fought between what two countries?",
+    question: "The Hundred Years War was fought between what two countries?",
     a: "Italy and Carthage",
     b: "England and Germany",
     c: "France and England",
@@ -84,7 +84,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "11. Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
+    question: "Which Roman Emperor built a massive wall across Northern Britain in 122 A.D.?",
     a: "Marcus Aurelius",
     b: "Hadrian",
     c: "Nero",
@@ -92,7 +92,7 @@ const QUIZ_CONTENT = [{
     correct: "b",
 },
 {
-    question: "12. In 1594, William Shakespeare joined the company of which London theatre?",
+    question: "In 1594, William Shakespeare joined the company of which London theatre?",
     a: "Broadway",
     b: "Oxford University Theatre",
     c: "The Globe",
@@ -100,7 +100,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "13. Which nation did The Khmer Rouge regime rule over in the 20th century?",
+    question: "Which nation did The Khmer Rouge regime rule over in the 20th century?",
     a: "Vietnam",
     b: "Laos",
     c: "Cambodia",
@@ -108,7 +108,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "14. What famous 5th century A.D conqueror was known as 'The Scourge of God?'",
+    question: "What famous 5th century A.D conqueror was known as 'The Scourge of God?'",
     a: "Hannibal",
     b: "Julius Caeser",
     c: "William The Conqueror",
@@ -116,7 +116,7 @@ const QUIZ_CONTENT = [{
     correct: "d",
 },
 {
-    question: "15. In which year did India get independence from Britain?",
+    question: "In which year did India get independence from Britain?",
     a: "1944",
     b: "1945",
     c: "1946",
@@ -124,7 +124,7 @@ const QUIZ_CONTENT = [{
     correct: "d",
 },
 {
-    question: "16. The ancient Egyptians used to sleep on pillows made of what?",
+    question: "The ancient Egyptians used to sleep on pillows made of what?",
     a: "Stones",
     b: "Gold",
     c: "Cotton",
@@ -132,7 +132,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "17. Which famous US landmark did Martin Luther King Junior give his famous 'I have a dream' speech in front of?",
+    question: "Which famous US landmark did Martin Luther King Junior give his famous 'I have a dream' speech in front of?",
     a: "Lincoln Memorial",
     b: "The White House",
     c: "Mount Rushmore",
@@ -140,7 +140,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "18. In which century did 10 Downing Street become the Prime Minister's residence?",
+    question: "In which century did 10 Downing Street become the Prime Minister's residence?",
     a: "16th",
     b: "17th",
     c: "18th",
@@ -148,7 +148,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "19. Which life-changing technology was launched in 1903?",
+    question: "Which life-changing technology was launched in 1903?",
     a: "Cars",
     b: "Bikes",
     c: "Aeroplanes",
@@ -156,7 +156,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "20. Which Treaty ended World War I?",
+    question: "Which Treaty ended World War I?",
     a: "The Treaty of Versailles",
     b: "The Treaty of Paris",
     c: "The Treaty of Strasbourg",
@@ -164,7 +164,7 @@ const QUIZ_CONTENT = [{
     correct: "a",
 },
 {
-    question: "21. What were the surfaces of Egypt's ancient pyramids covered with?",
+    question: "What were the surfaces of Egypt's ancient pyramids covered with?",
     a: "Gold",
     b: "Silver",
     c: "White Limestone",
@@ -172,7 +172,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "22. What was the street called where the Great Fire of London started?",
+    question: "What was the street called where the Great Fire of London started?",
     a: "Baker Street",
     b: "Pudding Lane",
     c: "Regents Street",
@@ -180,7 +180,7 @@ const QUIZ_CONTENT = [{
     correct: "b",
 },
 {
-    question: "23. What came after the Bronze Age?",
+    question: "What came after the Bronze Age?",
     a: "Stone Age",
     b: "Iron Age",
     c: "Silver Age",
@@ -188,7 +188,7 @@ const QUIZ_CONTENT = [{
     correct: "b",
 },
 {
-    question: "24. New York was known by a different name before 1664. What was that name?",
+    question: "New York was known by a different name before 1664. What was that name?",
     a: "Old York",
     b: "Great York",
     c: "New Amsterdam",
@@ -196,7 +196,7 @@ const QUIZ_CONTENT = [{
     correct: "c",
 },
 {
-    question: "25. According to popular myth, who chased all the snakes out of Ireland?",
+    question: "According to popular myth, who chased all the snakes out of Ireland?",
     a: "Saint Patrick",
     b: "Saint Owen",
     c: "Saint Brian",
