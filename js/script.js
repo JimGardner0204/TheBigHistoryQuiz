@@ -3,14 +3,16 @@
  * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
  */
 
-const mainQuiz = document.getElementById('mainquiz')
-const answerA1 = document.querySelectorAll('.answer')
-const questionmain = document.getElementById('topquestion')
-const texta = document.getElementById('a_text')
-const textb = document.getElementById('b_text')
-const textc = document.getElementById('c_text')
-const textd = document.getElementById('d_text')
-const submitbutton = document.getElementById('submit')
+const mainQuiz = document.getElementById('mainquiz');
+const answerA1 = document.querySelectorAll('.answer');
+const questionmain = document.getElementById('topquestion');
+const texta = document.getElementById('a_text');
+const textb = document.getElementById('b_text');
+const textc = document.getElementById('c_text');
+const textd = document.getElementById('d_text');
+const submitbutton = document.getElementById('submit');
+const progressText = document.getElementById('progress');
+const currentScoreText = document.getElementById('currentScore');
 
 let currentQuiz = 0;
 let score = 0;
@@ -54,6 +56,9 @@ function loadQuiz() {
     b_text.innerText = currentQuizData.b
     c_text.innerText = currentQuizData.c
     d_text.innerText = currentQuizData.d
+
+    progressText.innerText = `Question ${currentQuiz+1}/${QUIZ_CONTENT.length}`;
+    currentScoreText.innerText = `Current Score: ${score}/${QUIZ_CONTENT.length}`;
 }
 
 function deselectAnswers() {
@@ -89,4 +94,6 @@ submitbutton.addEventListener('click', () => {
         }
     }
 })
+
+
 
