@@ -48,5 +48,79 @@ The site has been created to improve my javaScript skills as well as further dev
 
 ### Question and Answer Section 
 
+- The question section is where the user will see the quiz question in bold font, with the answer section directly below, comprising of four options with a radio button next to each option, offering the user the chance to pick one of the options.
 
+- Once the user has picked their answer, they click on the submit button located directly below the answers and once submitted, the progress section displaying the 'Question Number' and 'Correct Score' will update accordingly.
+
+- The font size in this section has been increased for mobile users to focus more prominently on the quiz element of the site, with the heading section fonts decreased. This allows a much more user friendly mobile experience, as the questions are easier to read, and answers easier to pick through scaled up radio buttons, and fonts as mentioned. 
+
+### Future Features
+
+- To give users more learning opportunities through the game, I will implement a function to let the user know the correct answer, should they submit a wrong answer, and also congratulate the user on submitting the correct answer. This will obviously allow the user to gain further knowledge from the game through providing information as they progress.
+
+## Testing
+
+### Validator Testing 
+
+### HTML Validation
+
+........
+
+### CSS Validation
+
+........
+
+### JS Validation
+
+........
+
+### Compatability and Responsive Testing 
+
+| Tool/Device                   | Browser       | OS          | Screen Width |
+|-------------------------------|---------------|-------------|--------------|
+| Devtools Emulator Galaxy Fold | Chrome 108    | Windows 10  | 280 x 653    |
+| Real Phone iPhone 12          | Safari 15.6.1 | iOS16       | 390 x 844    |
+| Real Phone iPhone SE          | Safari 15.6.1 | iOS16       | 375 x 667    |
+| Devtools Emulator Pixel 5     | Chrome 108    | Windows 10  | 393 x 851    |
+| Devtools Emulator iPad Air    | Chrome 108    | Windows 10  | 820 x 1180   |
+| Real Asus E210 Laptop         | Firefox 88    | Windows 10  | 768 x 1366   |
+| Real Tablet Amazon Fire 10 HD | Silk          | Fire OS 7.1 | 1200 x 1920  |
+
+### Manual Testing- 
+
+.................
+- I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
+- I have confirmed the form works with the fields required needed before submitting highlighted in the screengrab below.
+
+### Unfixed Bugs 
+
+..................
+
+## Deployment 
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+- In the GitHub repository, navigate to the Settings tab
+- On the left hand taskbar, find the tab "pages"
+- Find the source section and select the drop down bar option "Deploy from a branch"
+- Save the branch and the page will refresh with the link to the live site
+
+## Credits 
+
+Below I have listed and assigned the content used within the website 
+
+### Content
+
+- The icons on the footer were taken from [Font Awesome](https://fontawesome.com/)
+- .......................
+
+### Media
+
+.................
+
+## Acknowledgements 
+
+- I would like to acknowledge the input from my code institute mentor Malia Havlicek on her expert guidance and input into this project.
+
+.................
 
