@@ -1,3 +1,8 @@
+/**
+ * The quiz content data structure was adopted from coding with Nicks quiz tutorial:
+ * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
+ */
+
 const QUIZ_CONTENT = [{
     question: "1. Who was the sixth and final wife of Henry VIII?",
     a: "Anne Boleyn",

@@ -1,11 +1,16 @@
-let mainQuiz = document.getElementById('mainquiz')
-let answerA1 = document.querySelectorAll('.answer')
-let questionmain = document.getElementById('topquestion')
-let texta = document.getElementById('a_text')
-let textb = document.getElementById('b_text')
-let textc = document.getElementById('c_text')
-let textd = document.getElementById('d_text')
-let submitbutton = document.getElementById('submit')
+/**
+ * The basic HTML quiz logic in this file was adopted from Coding with Nicks quiz tutorial:
+ * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
+ */
+
+const mainQuiz = document.getElementById('mainquiz')
+const answerA1 = document.querySelectorAll('.answer')
+const questionmain = document.getElementById('topquestion')
+const texta = document.getElementById('a_text')
+const textb = document.getElementById('b_text')
+const textc = document.getElementById('c_text')
+const textd = document.getElementById('d_text')
+const submitbutton = document.getElementById('submit')
 
 let currentQuiz = 0;
 let score = 0;
