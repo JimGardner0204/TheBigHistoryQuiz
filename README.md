@@ -98,6 +98,12 @@ For CSS validation I have used the following site - [CSS Validation](https://jig
 
 ........
 
+### Accessibility 
+
+- I confirmed the colors and fonts chosen for the site are easy to read and accessible by running the site through lightouse in devtools.
+
+![Screengrab of lighthouse report](assets/images/lighthouse%20report.PNG)
+
 ### Compatability and Responsive Testing 
 
 | Tool/Device                   | Browser       | OS          | Screen Width |
