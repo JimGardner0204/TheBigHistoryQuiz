@@ -4,6 +4,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header section */
+
 header {
     background-color: #3c6e71;
     padding: 0.5em;
@@ -18,9 +20,15 @@ header {
     font-size: 1.5em;
 }
 
+/* icon logo */
+
 i.fa-sharp.fa-solid.fa-clock-rotate-left {
     margin-left: 0.4em;
 }
+
+
+
+/* sub heading */
 
 #quizsubtitle {
     color: black;
@@ -32,6 +40,8 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     font-size: 0.8em;
 }
 
+/* ready to quiz sub heading */
+
 #quizready {
     color: white;
     display: flex;
@@ -41,6 +51,8 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     padding: 0.25em;
     font-size: 0.8em;
 }
+
+/* Current score and question number section */
 
 .progressArea {
     display: flex;
@@ -57,6 +69,8 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     padding: 1em;
     font-size: 1.3em;
 }
+
+/* Main quiz section */
 
 li {
     list-style-type: none;
@@ -78,6 +92,8 @@ ul li{
     cursor: pointer;
     padding: 0.7em;
   }
+
+  /* Radio buttons - scaled up */
   
   input#a.answer {
     transform: scale(1.5);
@@ -94,6 +110,8 @@ ul li{
   input#d.answer {
     transform: scale(1.5);
   }
+
+  /* submit button */
 
   button{
     background-color: #3c6e71;
