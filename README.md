@@ -17,7 +17,7 @@ The link to my repository can be found here - [The Big History Quiz Repository](
 
 James Gardner
 
-### UX
+## UX
 
 ### Target Audience 
 
@@ -27,7 +27,7 @@ The site is very generic in its target demographic, the questions are generally 
 
 The site has been created to improve my javaScript skills as well as further develop my HTML and CSS knowledge and deployment. The obvious goal in terms of the site is to offer a fun, quick learning game that gives instant satisfaction to the user and keeping the questions to a max number of 7, gives the user the desire to re load and answer further questions, in an attempt to beat their score.
 
-### Features 
+## Features 
 
 ### Heading and Logo
 
@@ -96,7 +96,15 @@ For CSS validation I have used the following site - [CSS Validation](https://jig
 
 ### JS Validation
 
-........
+For javaScript validation I have used the following site - [JSHint](https://jshint.com/)
+
+- script.js
+
+![script.js validation screen grab](assets/images/script%20js%20validation.PNG)
+
+- questions.js
+
+![questions.js validation screen grab](assets/images/jshint%20validation%20questions.PNG)
 
 ### Accessibility 
 
@@ -125,9 +133,9 @@ For CSS validation I have used the following site - [CSS Validation](https://jig
     - Working through the quiz multiple times, finishing and testing the reload function.
 
 
-### Unfixed Bugs 
+### Outstanding Defects
 
-..................
+- Font size on larger desktop screens can appear smaller however this does not implact on the core functionality of the site.
 
 ## Deployment 
 
@@ -159,5 +167,4 @@ Below I have listed and assigned the content used within the website
 - I have taken key learnings from the Code Institute Love Maths Project
 - Websites I'd like to acknowledge for this project are Coding with Nicks Youtube Channel, Geek for Geeks,  W3Schools, Codepen, Simplilearn and SkillCrush.
 
-.................
 
