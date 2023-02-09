@@ -2,13 +2,16 @@
 
 The Big History Quiz is a fun interactive quiz that generates questions spanning over the last 1000 years of history. The site is very simplistic in its design and aims to be quick, fun and informative, whilst also teaching users snippets of different periods of history.
 
+![image showing website on different screen sizes](assets/images/amiresponsive.PNG)
+
+
 ### Live Site
 
-........
+The live link to the site can be found here - [The Big History Quiz Live Site](https://jimgardner0204.github.io/TheBigHistoryQuiz/)
 
 ### Respository 
 
-........
+The link to my repository can be found here - [The Big History Quiz Repository](https://github.com/JimGardner0204/TheBigHistoryQuiz)
 
 ### Author
 
@@ -31,14 +34,20 @@ The site has been created to improve my javaScript skills as well as further dev
 - Featured at the top of the page, the heading and icon logo are in focus as soon as the user loads the page, immediately drawing their attention to the name of the quiz.
 - The colour, font and font-colour used offer great constrasts against each other as well as the sections beneath.
 
+![Heading and Logo](assets/images/heading%20logo.PNG)
+
 ### Subheading
 
 - The subheading content gives very specific information about what the quiz entails in a simple statement, immediately giving the user instructions for what the quiz entails
 - Echoing the above statement, the colours and fonts used contrast well.
 
+![Sub Heading Section](assets/images/subheading.PNG)
+
 ### Further Subheading
 
 - The final section of the heading gives the user the green light to start the quiz following the instructions set out above. While the game is self explanatory, I liked the design of having the different colours in this pallete and felt this section gave the user motivation to begin the game.
+
+![Ready, set section](assets/images/Ready,%20set,%20lets%20Quiz.PNG)
 
 ### Progress Area
 
@@ -46,13 +55,19 @@ The site has been created to improve my javaScript skills as well as further dev
 - Again this adds impotus to the instructions for the game and again tells the user there will be 7 questions to answer below.
 - I chose to keep the design of this section simplistic with a focus on ease of use and contrast for the user.
 
+![Progress Area](assets/images/Progress%20Area.PNG)
+
 ### Question and Answer Section 
 
 - The question section is where the user will see the quiz question in bold font, with the answer section directly below, comprising of four options with a radio button next to each option, offering the user the chance to pick one of the options.
 
 - Once the user has picked their answer, they click on the submit button located directly below the answers and once submitted, the progress section displaying the 'Question Number' and 'Correct Score' will update accordingly.
 
-- The font size in this section has been increased for mobile users to focus more prominently on the quiz element of the site, with the heading section fonts decreased. This allows a much more user friendly mobile experience, as the questions are easier to read, and answers easier to pick through scaled up radio buttons, and fonts as mentioned. 
+- The font size in this section has been increased for mobile users to focus more prominently on the quiz element of the site, with the heading section fonts decreased. This allows a much more user friendly mobile experience, as the questions are easier to read, and answers easier to pick through scaled up radio buttons, and fonts as mentioned.
+
+![desktop / laptop question area](assets/images/desktop%20question%20area.PNG)
+
+![mobile question area showing larger font](assets/images/mobile%20question%20area.PNG)
 
 ### Future Features
 
@@ -64,11 +79,20 @@ The site has been created to improve my javaScript skills as well as further dev
 
 ### HTML Validation
 
-........
+To validate my HTML files I have used the following site - [HTML Validation](https://validator.nu/)
+
+- Index.html validation 
+
+![index.html validation screen grab](assets/images/html%20validator.PNG)
 
 ### CSS Validation
 
-........
+For CSS validation I have used the following site - [CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+- style.css validation
+
+![style.css validation screen grab](assets/images/css%20validation.PNG)
+
 
 ### JS Validation
 
@@ -88,9 +112,12 @@ The site has been created to improve my javaScript skills as well as further dev
 
 ### Manual Testing- 
 
-.................
-- I have confirmed all links navigate to correct locations and work well, they are readable and easy to understand.
-- I have confirmed the form works with the fields required needed before submitting highlighted in the screengrab below.
+- I have confirmed the quiz game works through serveral tests on the live site
+    - This includes testing all radio buttons work correctly and are connected to correct and incorrect answers
+    - Testing progress area in terms of question number and correct score
+    - Testing the submit button
+    - Working through the quiz multiple times, finishing and testing the reload function.
+
 
 ### Unfixed Bugs 
 

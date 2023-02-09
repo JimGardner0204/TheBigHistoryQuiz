@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico.png">
 
     <title>The Big History Quiz </title>
 </head>
 
 <body>
+
+    <!-- Header, logo and sub headings section-->
 
     <header>
         <h1 id="quiztitle"> The Big History Quiz<i class="fa-sharp fa-solid fa-clock-rotate-left"></i> </h1>
@@ -37,6 +40,8 @@ https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
 
         <div class="header-quiz">
 
+            <!-- Progress area showing correct score and question number user is on -->
+
             <div class="progressArea">
                 <div id="progress"> Question X of N</div>
                 <div id="currentScore"> Current Score Z of X </div>
@@ -44,7 +49,7 @@ https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
 
             <h2 id="topquestion">Question Text</h2>
 
-            <!--Answer section-->
+            <!--Answer section with radio buttons where user will choose their answer -->
             <ul>
                 <li>
                     <input type="radio" name="answer" id="a" class="answer">
@@ -64,6 +69,8 @@ https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
                 </li>
             </ul>
         </div>
+
+        <!-- Submit button section where user submits each answer -->
 
         <button id="submit">submit</button>
 

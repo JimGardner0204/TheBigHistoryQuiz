@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
  * The basic HTML quiz logic in this file was adopted from Coding with Nicks quiz tutorial:
  * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
@@ -50,6 +52,7 @@ const QUIZ_CONTENT = getQuestions(7);
 
 loadQuiz();
 
+//* function to load quiz and update question number and current score as user progresses through game
 function loadQuiz() {
 
     deselectAnswers()

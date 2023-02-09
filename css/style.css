@@ -84,36 +84,37 @@ li {
     align-content: center;
 }
 
-ul li{
+ul li {
     font-size: 1.2rem;
     margin: 1rem 0;
-  }
-  ul li label{
+}
+
+ul li label {
     cursor: pointer;
     padding: 0.7em;
-  }
+}
 
-  /* Radio buttons - scaled up */
-  
-  input#a.answer {
+/* Radio buttons - scaled up */
+
+input#a.answer {
     transform: scale(1.5);
-  }
+}
 
-  input#b.answer {
+input#b.answer {
     transform: scale(1.5);
-  }
+}
 
-  input#c.answer {
+input#c.answer {
     transform: scale(1.5);
-  }
+}
 
-  input#d.answer {
+input#d.answer {
     transform: scale(1.5);
-  }
+}
 
-  /* submit button */
+/* submit button */
 
-  button{
+button {
     background-color: #3c6e71;
     color: #fff;
     border: none;
@@ -122,23 +123,24 @@ ul li{
     font-size: 1.1rem;
     font-family: inherit;
     padding: 1.3rem;
-  }
-  button:hover{
+}
+
+button:hover {
     background-color: #353535;
-  }
+}
 
 /*Question font increased while header and subheader decreased for mobile users*/
 
 @media screen and (max-width: 500px) {
-    
+
     #mainquiz {
         padding: 0.5em;
     }
-    
+
     #topquestion {
         font-size: 1.8em;
     }
-    
+
     #quiztitle {
         font-size: 1.2em;
     }
@@ -155,7 +157,7 @@ ul li{
     label#a_text {
         font-size: 1.2em;
     }
-    
+
     label#b_text {
         font-size: 1.2em;
     }
@@ -168,4 +170,3 @@ ul li{
         font-size: 1.2em;
     }
 }
-  

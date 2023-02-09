@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 /**
  * The quiz content data structure was adopted from coding with Nicks quiz tutorial:
  * https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/
@@ -204,3 +206,4 @@ const QUESTIONS = [{
         correct: "a",
     }
 ];
+
