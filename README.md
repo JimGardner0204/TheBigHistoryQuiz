@@ -145,15 +145,19 @@ Below I have listed and assigned the content used within the website
 ### Content
 
 - The icons on the footer were taken from [Font Awesome](https://fontawesome.com/)
-- .......................
+- The basic HTML quiz logic in script.js was adopted from Coding with Nicks quiz tutorial: [Coding With Nick](https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/)
+- The quiz content data structure in questions.js was adopted from Coding with Nicks quiz tutorial: [Coding With Nick](https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/)
+- Function getQuestions used to generate random quiz questions on the site was adopted from [Geek for Geeks](https://www.geeksforgeeks.org/how-to-create-an-array-containing-non-repeating-elements-in-javascript/) and adapted by myself to work for my quiz.
 
 ### Media
 
-.................
+- The Screen shots showing the responsiveness of my site were taken from [Am I Responsive](https://ui.dev/amiresponsive)
 
 ## Acknowledgements 
 
 - I would like to acknowledge the input from my code institute mentor Malia Havlicek on her expert guidance and input into this project.
+- I have taken key learnings from the Code Institute Love Maths Project
+- Websites I'd like to acknowledge for this project are Coding with Nicks Youtube Channel, Geek for Geeks,  W3Schools, Codepen, Simplilearn and SkillCrush.
 
 .................
 
