@@ -101,7 +101,11 @@ To validate my HTML files I have used the following site - [HTML Validation](htt
 
 - Index.html validation 
 
-![index.html validation screen grab](assets/images/html%20validator.PNG)
+![index.html validation](assets/images/index%20html%20validator.PNG)
+
+- 404.html validation
+
+![404.html validation screen grab](assets/images/404%20error%20page.PNG)
 
 ### CSS Validation
 

@@ -147,4 +147,4 @@ document.onreadystatechange = function () {
         // show quiz area since DOM manipulation is possible 
         mainQuiz.classList.remove('hide');
     }
-}
+};
