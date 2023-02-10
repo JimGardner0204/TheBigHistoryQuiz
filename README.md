@@ -61,6 +61,8 @@ The site has been created to improve my javaScript skills as well as further dev
 
 - The question section is where the user will see the quiz question in bold font, with the answer section directly below, comprising of four options with a radio button next to each option, offering the user the chance to pick one of the options.
 
+- Users cannot submit an answer without selecting a radio button
+
 - Once the user has picked their answer, they click on the submit button located directly below the answers and once submitted, the progress section displaying the 'Question Number' and 'Correct Score' will update accordingly.
 
 - The font size in this section has been increased for mobile users to focus more prominently on the quiz element of the site, with the heading section fonts decreased. This allows a much more user friendly mobile experience, as the questions are easier to read, and answers easier to pick through scaled up radio buttons, and fonts as mentioned.
@@ -69,9 +71,19 @@ The site has been created to improve my javaScript skills as well as further dev
 
 ![mobile question area showing larger font](assets/images/mobile%20question%20area.PNG)
 
-### Future Features
+### No Script
 
-- To give users more learning opportunities through the game, I will implement a function to let the user know the correct answer, should they submit a wrong answer, and also congratulate the user on submitting the correct answer. This will obviously allow the user to gain further knowledge from the game through providing information as they progress.
+- If a user disables javascript, inform the user to enable it so they can use the quiz
+
+## Future Features
+
+- **Highlight Correct Answers** To give users more learning opportunities through the game, I will implement a function to let the user know the correct answer, should they submit a wrong answer, and also congratulate the user on submitting the correct answer. This will obviously allow the user to gain further knowledge from the game through providing information as they progress.
+
+- **Have Difficulty Levels** To add more variation have difficulty levels that relate to the number of questions asked, easy = 5, medium = 10, hard = 10 etc. and increased number of questions in pool.
+
+- **Add Sound Controls** Let user turn on and off background sound
+
+-**Local Storage High Score** Let user try to beat their own score using local storage
 
 ## Testing
 
