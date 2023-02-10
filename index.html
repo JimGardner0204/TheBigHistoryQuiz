@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    
+
 
     <title>The Big History Quiz </title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico.png">
@@ -19,63 +19,78 @@
     <header>
         <h1 id="quiztitle"> The Big History Quiz<i class="fa-sharp fa-solid fa-clock-rotate-left"></i> </h1>
     </header>
+    <section>
+        <div id="quizsubtitle">
+            <h2> Test your history knowledge with 7 fun inquisitive questions </h2>
 
-    <div id="quizsubtitle">
-        <h2> Test your history knowledge with 7 fun inquisitive questions </h2>
+        </div>
+    </section>
 
-    </div>
+    
 
-    <div id="quizready">
-        <h2> Ready, Set, Lets Quiz! </h2>
+        <section id="quizready">
+            <h2> Ready, Set, Lets Quiz! </h2>
 
-    </div>
+        </section>
+    
 
 
 
     <!-- Quiz container -->
 
-    <div class="outer-quiz" id="mainquiz">
-        <!-- The DOM structure for this quiz was adopted from Coding with Nicks quiz tutorial :
+    <!-- The DOM structure for this quiz was adopted from Coding with Nicks quiz tutorial :
 https://codingwithnick.in/create-a-quiz-app-using-html-css-javascript/ -->
 
+    <!-- tags were updated to create more semantic elements-->
 
-        <div class="header-quiz">
+    <!-- progress area added -->
 
-            <!-- Progress area showing correct score and question number user is on -->
+    
+        <main class="outer-quiz" id="mainquiz">
 
-            <div class="progressArea">
-                <div id="progress"> Question X of N</div>
-                <div id="currentScore"> Current Score Z of X </div>
+            <div class="header-quiz">
+
+                <!-- Progress area showing correct score and question number user is on -->
+
+                <section class="progressArea">
+                    <div id="progress"> Question X of N</div>
+                    <div id="currentScore"> Current Score Z of X </div>
+                </section>
+
+                <h2 id="topquestion">Question Text</h2>
+
+                <!--Answer section with radio buttons where user will choose their answer -->
+
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text"> Answer </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text"> Answer </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text"> Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text"> Answer </label>
+                    </li>
+                </ul>
             </div>
 
-            <h2 id="topquestion">Question Text</h2>
 
-            <!--Answer section with radio buttons where user will choose their answer -->
-            <ul>
-                <li>
-                    <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id="a_text"> Answer </label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="b_text"> Answer </label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="c_text"> Answer</label>
-                </li>
-                <li>
-                    <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="d_text"> Answer </label>
-                </li>
-            </ul>
-        </div>
+            <!-- Submit button section where user submits each answer -->
 
-        <!-- Submit button section where user submits each answer -->
 
-        <button id="submit">submit</button>
+            <button id="submit">submit</button>
 
-    </div>
+    
+
+
+        </main>
 
 
 
