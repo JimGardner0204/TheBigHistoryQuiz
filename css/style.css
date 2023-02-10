@@ -40,6 +40,20 @@ i.fa-sharp.fa-solid.fa-clock-rotate-left {
     font-size: 0.8em;
 }
 
+/*class to hide DOM elements */
+
+.hide {
+    display: none!important;
+}
+
+#no-javascript {
+    padding: 0.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
 /* ready to quiz sub heading */
 
 #quizready {
