@@ -75,6 +75,12 @@ The site has been created to improve my javaScript skills as well as further dev
 
 - If a user disables javascript, inform the user to enable it so they can use the quiz
 
+### Custome Error Page
+
+- If the user somehow navigates to a page outside the index.html they will see a custom 404 page that looks like the quiz site with a button that takes them to the index.html page
+
+![Custom Error Page](assets/images/custom%20error%20page.PNG)
+
 ## Future Features
 
 - **Highlight Correct Answers** To give users more learning opportunities through the game, I will implement a function to let the user know the correct answer, should they submit a wrong answer, and also congratulate the user on submitting the correct answer. This will obviously allow the user to gain further knowledge from the game through providing information as they progress.
